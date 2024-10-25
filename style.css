@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRad2uACEB5ajtyNYsBnNjc0F62UBZdoGOyfw&s");
+    background-image: url("https://wallpapers.com/images/hd/purple-and-black-background-9j9dqjtbx7092goi.jpg");
     font-family: 'Arial', courier, monospace; /*alterar fonte*/
     background-size: cover;
     background-repeat: no-repeat
@@ -13,13 +13,13 @@ body {
 }
 
 nav{
-    background-color: blueviolet#333;
+    background-color: rgb(222, 214, 230)#333;
 }
 
 a{
     font-size: 30px;
     text-decoration: none;
-    color:#000000 
+    color:#e4d7d7 
  }
     
 
