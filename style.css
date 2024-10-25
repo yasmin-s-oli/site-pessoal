@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRad2uACEB5ajtyNYsBnNjc0F62UBZdoGOyfw&s");
+    font-family: 'Arial', courier, monospace; /*alterar fonte*/
+    background-size: cover;
+    background-repeat: no-repeat
+
+}
+
+nav{
+    background-color: blueviolet#333;
+}
+
+a{
+    font-size: 30px;
+    text-decoration: none;
+    color:#000000 
+ }
+    
+
+
+a:hover {
+    text-decoration: underline;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.menu li {
+    list-style: none;
+}
