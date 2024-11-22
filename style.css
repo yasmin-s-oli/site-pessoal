@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("https://img.freepik.com/vetores-gratis/fundo-branco-monocromatico-de-estilo-de-papel_23-2149003153.jpg");
+    background-image: url("https://wallpapers.com/images/hd/purple-and-black-background-9j9dqjtbx7092goi.jpg");
     font-family: 'Arial', courier, monospace; /*alterar fonte*/
     background-size: cover;
     background-repeat: no-repeat
@@ -13,13 +13,13 @@ body {
 }
 
 nav{
-    background-color: black(235, 230, 240)black;
+    background-color: rgb(222, 214, 230)#333;
 }
 
 a{
     font-size: 30px;
     text-decoration: none;
-    color:#120c0c 
+    color:#e4d7d7 
  }
     
 
