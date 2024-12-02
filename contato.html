@@ -1,69 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Yasmin Oliveira</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header> <!--cabeçalho-->
-        <nav class="menu">  <!--navegação-->
-           <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="#">Portifolio</a></li>
-            <li><a href="contato.html">Contato</a></li>
-        </ul>
-    </div>
-    </header>
     <style>
+        /* Estilos gerais */
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #f3e6fa; /* Tom claro de roxo */
             margin: 0;
             padding: 0;
         }
+
+        /* Cabeçalho */
+        header {
+            background-color: #7235a7; /* Roxo escuro */
+            padding: 1rem 0;
+            color: white;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+            gap: 2rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #e3c6fc; /* Tom mais claro ao passar o mouse */
+        }
+
+        /* Container do formulário */
         .container {
             width: 50%;
-            margin: 0 auto;
+            margin: 2rem auto;
             background-color: #fff;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
         h1 {
             text-align: center;
-            color: #333;
+            color: #7235a7; /* Roxo escuro */
         }
+
         form {
             display: flex;
             flex-direction: column;
         }
+
         label {
             margin-top: 10px;
             font-weight: bold;
+            color: #7235a7; /* Roxo escuro */
         }
+
         input, textarea {
             padding: 10px;
             margin-top: 5px;
             border: 1px solid #ccc;
             border-radius: 4px;
         }
+
         input[type="submit"] {
             margin-top: 20px;
-            background-color: #4CAF50;
+            background-color: #7235a7; /* Roxo escuro */
             color: white;
             border: none;
             cursor: pointer;
+            font-weight: bold;
         }
+
         input[type="submit"]:hover {
-            background-color: #45a049;
+            background-color: #562b6c; /* Tom mais escuro de roxo */
         }
     </style>
 </head>
 <body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="portifolio.html">Portfólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <div class="container">
         <h1>Entre em Contato</h1>
         <form action="/enviar" method="post">
@@ -79,7 +116,5 @@
             <input type="submit" value="Enviar">
         </form>
     </div>
-</body>
-</html>
 </body>
 </html>

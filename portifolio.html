@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasmin Oliveira</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Centralizar o conteúdo e estilizar */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        header {
+            background-color: #7235a7;
+            padding: 1rem;
+            color: white;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-between; /* Distribui os itens nas extremidades */
+            width: 90%; /* Ajusta a largura para garantir que os itens ocupem toda a área disponível */
+            margin: 0 auto; /* Centraliza a barra de navegação */
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: white; /* Alterado para branco */
+        }
+
+        p {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            color: white; /* Alterado para branco */
+        }
+
+        .video {
+            margin: 1.5rem auto;
+            width: 70%; /* Ajusta o tamanho do iframe */
+        }
+
+        iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+        }
+
+        footer {
+            margin-top: 3rem;
+            background-color: #562b6c;
+            color: white;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho com navegação -->
+    <header> <!-- CABEÇALHO -->
+        <nav class="Sobre"> <!-- NAVEGAÇÃO -->
+            <ul>
+                <li><a href="index.html">Início</a></li> <!-- LINK -->
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="portifólio.html">Portfólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Conteúdo principal -->
+    <main>
+        <h2>Meus Trabalhos</h2>
+        <p>Aqui estão alguns dos meus trabalhos:</p>
+
+        <!-- Adicione os vídeos do YouTube aqui -->
+        <div class="video">
+            <h3>Trabalho 1</h3>
+            <iframe src="https://www.youtube.com/embed/u-ADCGFAAj4" allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Desenvolvido por Yasmin Oliveira</p>
+    </footer>
+</body>
+</html>

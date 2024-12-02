@@ -1,27 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
+    <title>Yasmin Oliveira</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fffafc;
+            color: rgb(255, 251, 251);
+        }
+        header {
+            background-color: #7235a7;
+            padding: 10px 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+        }
+        .welcome {
+            text-align: center;
+            margin: 50px 20px;
+            padding: 20px;
+            background-color: #dda8f8;
+            border-radius: 10px;
+            color: #4a0264;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <nav class="menu">
-                <span>Yasmin</span>
-
+    <header> <!--CABEÇALHO-->
+        <nav class="Sobre"><!--NAVEGAÇÃO-->
+            <ul>
+                <li><a href="index.html">Início</a></li><!--LINK-->
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="portifolio.html">Portfólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
             </ul>
-    <header> <!--cabeçalho-->
-        <nav class="menu">  <!--navegação-->
-           <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="#">Portifolio</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
-    </div>
+        </nav>
     </header>
+    <div class="welcome">
+        <h1>Bem-vindo ao meu site!</h1>
+        <p>Este espaço foi feito com carinho para compartilhar um pouco de mim e do meu trabalho. </p>
+            <p> Fique à vontade para explorar e aproveitar cada detalhe.</p>
+    </div>
 </body>
 </html>
-            
